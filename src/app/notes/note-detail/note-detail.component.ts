@@ -23,7 +23,6 @@ export class NoteDetailComponent {
       console.error('Note missing ID!');
     }
   }
-
   deleteNote(id: string) {
     this.noteService.deleteNote(id);
   }
